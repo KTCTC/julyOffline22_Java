@@ -3,9 +3,10 @@ package data.types;
 public class DataTypeClass {
 	public static void main(String[] args) {
 		
-		byte byteData;
+		byte byteData =99;
+		byte bb = byteData;
 		System.out.println(byteData);
-		
+	
 		byte btType = 45;
 		byteData = 89;
 		System.out.println(btType);
