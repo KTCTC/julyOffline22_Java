@@ -13,6 +13,9 @@ ch = 'B';
 int a = ch;
 System.out.println(a);
 
+int b = 90;
+ch = 90;
+
 
 	}
 
