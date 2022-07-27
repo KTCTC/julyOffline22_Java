@@ -7,11 +7,12 @@ public class DtaTypeThree {
 	int nonStVari;
 
 	public static void main(String[] args) {
-		int a =90;
+		static int a = 0;
 		System.out.println(a);
-		System.out.println(ab);
+		System.out.println(DtaTypeThree.ab);
 		System.out.println(stVari);
-		
+		System.out.println(nonStVari);
+		methodThree();
 		methodTwo();
 
 	}
@@ -26,6 +27,7 @@ public class DtaTypeThree {
 	
 	public static void methodTwo()
 	{
+		int frt = 90;
 		System.out.println("Method two");
 		
 	}
@@ -34,6 +36,7 @@ public class DtaTypeThree {
 		System.out.println("Method three");
 		char ch = 'r';
 		System.out.println(ch);
+		System.out.println(nonStVari);
 		
 	}
 
