@@ -19,7 +19,7 @@ public class StaticKeywordClass {
 		int b = 90;
 		System.out.println("static Method");
 		System.out.println(b);
-	  //  System.out.println(abcd);
+	   System.out.println(abcd);
 		System.out.println(pqrs);
 	}
 	
