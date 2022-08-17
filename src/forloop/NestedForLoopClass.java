@@ -6,7 +6,7 @@ public class NestedForLoopClass {
 		System.out.println("Before code");
 		
 		
-	ABCD:	for (int i = 0; i<2;i++)
+	ABCD:for (int i = 0; i<2;i++)
 		{
 			System.out.println("Inside outer for loop");
 			

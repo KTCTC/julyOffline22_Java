@@ -13,10 +13,10 @@ public class ForEachLoopClass {
     }
     
     
-    for (int each:arr)
+    for (int a:arr)
     {
     	System.out.println("Inside for loop");
-    	System.out.println(each);
+    	System.out.println(a);
     }
    
 		
