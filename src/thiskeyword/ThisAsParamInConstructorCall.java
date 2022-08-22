@@ -23,6 +23,7 @@ public class ThisAsParamInConstructorCall {
 		
 		
 		
+		
 		System.out.println(obj.aa);
 		
 		

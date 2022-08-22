@@ -8,7 +8,6 @@ public class ThisAsReturnType {
 		ThisAsReturnType obj = new ThisAsReturnType();
 
 		ThisAsReturnType oo = obj.nonStatic();
-
 		System.out.println(oo.rollNum);
 	}
 

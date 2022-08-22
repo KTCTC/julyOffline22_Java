@@ -5,8 +5,7 @@ public class A {
 	
 	  public A(ThisAsParamInConstructorCall oo) { 
 		  oo.aa = 777; 
-	  oo.npk
-	  ="SSSSSSSSSS";
+	  oo.npk ="SSSSSSSSSS";
 	  
 	  
 	  }
