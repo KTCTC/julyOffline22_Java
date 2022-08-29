@@ -16,18 +16,36 @@ int ab = 89;
 	{
 		System.out.println("SBI charges 2% for IMPS");
 	}
-
+	@Override
+	public void currancyExchangeRate() {
+		System.out.println("currancy rate of SBI = 0.2%");
+		
+	}
 public static void main(String[] args) {
+	
+	ReserveBank.savingAccountMaintananceCharges();
 	
 	ReserveBank rsbi = new SBI();
 	rsbi.rTGSFundTranferCharges();
 	rsbi.nEFTFuncdTransferCharges();
+	rsbi.currentAccountMaintananceCharges();
 	
 	SBI sbi = new SBI();
 	System.out.println(sbi.abc);
   sbi.imPSFundTransfer();
   sbi.rTGSFundTranferCharges();
   sbi.nEFTFuncdTransferCharges();
+  sbi.currentAccountMaintananceCharges();
 }
+
+
+@Override
+public void m() {
+	// TODO Auto-generated method stub
+	
+}
+
+
+
 
 }
