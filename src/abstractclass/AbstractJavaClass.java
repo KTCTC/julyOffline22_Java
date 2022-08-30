@@ -1,7 +1,8 @@
 package abstractclass;
 
 public abstract class AbstractJavaClass extends ParentAbstractClass{
-	
+	int ab = 78;
+	static int stAb = 78;
 	public AbstractJavaClass(int a)
 	{
 		

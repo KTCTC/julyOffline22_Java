@@ -31,4 +31,9 @@ public void parentClassAbstractMethod() {
 	System.out.println("parent Class Abstract Method implemented by A class");
 	
 }
+
+public  void interfaceMethod()
+{
+	System.out.println("Implemented abstract method of interface by Abstract class");
+}
 }
