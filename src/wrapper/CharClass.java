@@ -3,6 +3,8 @@ package wrapper;
 public class CharClass {
 
 	public static void main(String[] args) {
+		
+		
 
 Character ch = new Character('7');
 
