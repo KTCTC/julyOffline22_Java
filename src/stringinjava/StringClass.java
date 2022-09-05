@@ -3,11 +3,11 @@ package stringinjava;
 public class StringClass {
 
 	public static void main(String[] args) {
-
+		String str = new String("Welcome");
 String data = "Welcome";
 String dd = "Welcome";
 String dd1 = "welcome";
-String str = new String("Welcome");
+
 
 String str1 = new String("Welcome to");
 String str2 = "Welcome to";
