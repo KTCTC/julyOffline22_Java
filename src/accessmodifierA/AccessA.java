@@ -42,6 +42,8 @@ public class AccessA {
  }
  
  public static void main(String[] args) {
+	
+	 
 	AccessA privateConst = new AccessA(23,true);
 	AccessA defaultConst = new AccessA("eeer");
 	AccessA protectConst = new AccessA(34.2f);
