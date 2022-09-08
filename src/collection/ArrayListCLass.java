@@ -1,13 +1,16 @@
 package collection;
 
+
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
 
 public class ArrayListCLass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stu	
-		ArrayList<Integer> data1 = new ArrayList<>();
+		List<Integer> data1 = new ArrayList<>();
 		Integer a = new Integer(23);
 		Integer b = new Integer(10);
 		
@@ -45,6 +48,14 @@ public class ArrayListCLass {
 		Integer ab = data.get(2);
 		System.out.println(ab);
 		System.out.println(data);
+		
+		Iterator<Integer> itr = data.iterator();
+		
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
+		
 
 	}
 
